@@ -103,7 +103,7 @@ We will list a set of steps to understand the allocation of resources to each pa
 3. PE4 will allocate a MDT for this (S, G).
 	- It consumes a Label Resource.
 4. PE4 will use BGP Auto Discovery Route Type 3 to send to all Ps.
-	- P-1 receives it and learns which Tree to join.
+	- PE1 receives it and learns which Tree to join.
 5. PE1 will join this this Data MDT for this (S, G).
 	- It consumes a Label Resource.
 6. The Join will reach P-1 and P-1 joins the MLDP Tree.
