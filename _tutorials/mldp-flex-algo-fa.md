@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 date: '2022-09-01 17:36 +0300'
 title: mLDP + Flex-Algo (FA)
 author: Lampros Gkavogiannis
@@ -155,7 +155,3 @@ S1 starts flowing the traffic through the red plane.
 It is important to understand that the network is now separated which makes red plane totally independent by green plane. Anything that might happen within the red plane such as failure, it will be taken care by the current plane and will be containted in it without interfering with the other planes. Whatever happens between 5,6,7,8 will never be linked to the green plane.
 
 ![mLDP + FA_image_1.3.jpg]({{site.baseurl}}/images/mLDP + FA_image_1.3.jpg)
-
-
-
-
