@@ -9,7 +9,7 @@ position: hidden
 # Dynamic Tree-SID + Crosswork Optimization Engine (COE)
 
 
-In previous tutorials, we discussed the fundamentals of [Tree-SID](https://xrdocs.io/multicast/tutorials/tree-sid/) as a multicast technology in IOS-XR. Today we will showcase the integration of Dynamic Tree-SID deployments with the Crosswork Optimization Engine (COE). The Crosswork team has invested time and effort to evolve the Tree-SID solution with an automated and enhanced user experience with the goal of enhancing the technology and expanding its potential.
+In previous tutorials, we discussed the fundamentals of [Tree-SID]({{site.url}}/multicast/tutorials/tree-sid/) as a multicast technology in IOS-XR. Today we will showcase the integration of Dynamic Tree-SID deployments with the Crosswork Optimization Engine (COE). The Crosswork team has invested time and effort to evolve the Tree-SID solution with an automated and enhanced user experience with the goal of enhancing the technology and expanding its potential.
  
 There are 2 major challenges that we are trying to overcome:
 

@@ -48,7 +48,7 @@ From MPLS Transport perspective we have 4 types of nodes:
 
 ![multicast scaling 1.3.1.jpg]({{site.baseurl}}/images/multicast scaling 1.3.1.jpg)
 
-Previously we [discussed](https://xrdocs.io/multicast/blogs/multicast-distribution-trees-mdts/) about MVPN and at Cisco we have a huge variety of MVPN Profiles supported on our platforms. There are differences between Profiles when it comes to scaling, but in this blog we will mostly focus on Profile 14, because it is well known and massively deployed.
+Previously we [discussed]({{site.url}}/multicast/blogs/multicast-distribution-trees-mdts/) about MVPN and at Cisco we have a huge variety of MVPN Profiles supported on our platforms. There are differences between Profiles when it comes to scaling, but in this blog we will mostly focus on Profile 14, because it is well known and massively deployed.
 {: .notice--info}
 
 For all the above nodes there are different scale numbers that are being allocated for Profile 14. Let us define what scale numbers we get on each node.
@@ -122,7 +122,7 @@ On the second part of the blog, we will cover one of the tools that IOS-XR can p
 
 ## Route policy Based S-PMSI
 
-Going back to this [blog](https://xrdocs.io/multicast/blogs/multicast-distribution-trees-mdts/), we mentioned what Data MDT is and how/ when it can be used. Now, we will discuss about a policy that can be applied to a Data MDT.
+Going back to this [blog]({{site.url}}/multicast/blogs/multicast-distribution-trees-mdts/), we mentioned what Data MDT is and how/ when it can be used. Now, we will discuss about a policy that can be applied to a Data MDT.
 
 The policy is called Based S-PMSI or named Data MDT and it is an enhanced route policy to map Multicast sources and/ or groups to a named Data MDT. It is developed to deterministically control Multicast flow mapping into Data MDT Trees. For this policy we assign names instead of numbers because they can become more descriptive.
 
@@ -210,7 +210,7 @@ The goal of this blog was to answer commonly asked questions regarding Multicast
 
 [IP Multicast](https://www.cisco.com/c/en/us/tech/ip/ip-multicast/index.html)
 
-[Multicast Distribution Trees - MDTS](https://xrdocs.io/multicast/blogs/multicast-distribution-trees-mdts/)
+[Multicast Distribution Trees - MDTS]({{site.url}}/multicast/blogs/multicast-distribution-trees-mdts/)
 
 [Configure mVPN Profiles within Cisco IOS XR](https://www.cisco.com/c/en/us/support/docs/ip/multicast/200512-Configure-mVPN-Profiles-within-Cisco-IOS.html)
 

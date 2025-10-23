@@ -7,7 +7,7 @@ excerpt: Tree-SID + COE
 ---
 # Tree-SID + COE
 
-[Tree-SID](https://xrdocs.io/multicast/tutorials/tree-sid/) has been discussed as a multicast technology in IOS-XR. Our goal is to enhance that technology and expand its potential thats why we are optimizing it by using Crosswork Optimization Engine (COE).
+[Tree-SID]({{site.url}}/multicast/tutorials/tree-sid/) has been discussed as a multicast technology in IOS-XR. Our goal is to enhance that technology and expand its potential thats why we are optimizing it by using Crosswork Optimization Engine (COE).
 
 There are 2 major challenges that we are trying to overcome:
 1. The lack of accurate and intuitive visibility into multicast deployments
